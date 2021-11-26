@@ -8,9 +8,6 @@ from brownie import (
     LinkToken,
     interface,
 )
-from dotenv import load_dotenv
-
-load_dotenv()
 
 FORKED_LOCAL_ENVIRONMENTS = ["mainnet-fork", "mainnet-fork-dev"]
 LOCAL_BLOCKCHAIN_ENVIRONMENTS = ["development", "ganache-local"]
